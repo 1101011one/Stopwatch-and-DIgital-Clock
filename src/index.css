@@ -1,0 +1,94 @@
+body{
+  background-image: url(assets/ajr.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.clock-container{
+  backdrop-filter: blur(2px);
+  /* width: 100vw; */
+  padding: 10px 0;
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.751);
+  text-align: center;
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  backdrop-filter: blur(3px);
+  padding: 30px;
+}
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 92%);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.751);
+  margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: background-color .5s ease;
+}
+
+.start-btn{
+  background-color: hsl(115, 100%, 40%);
+}
+
+.start-btn:hover{
+  background-color: hsl(115, 100%, 35%);
+}
+
+.stop-btn{
+  background-color: hsl(10, 90%, 50%);
+}
+
+.stop-btn:hover{
+  background-color: hsl(10, 90%, 40%);
+}
+
+.reset-btn{
+  background-color: hsl(202, 90%, 60%);
+}
+
+.reset-btn:hover{
+  background-color: hsl(202, 90%, 50%);
+}
